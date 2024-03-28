@@ -1,0 +1,6 @@
+hyprctl hyprpaper wallpaper eDP-1,~/.config/style1.jpg
+echo 'source = ~/.config/hypr/style1.conf' > .config/hypr/preloader.conf
+sed -i '19s/.*/#0db9d7/' .config/waybar/style.css 
+hyprctl reload
+pkill -f waybar
+waybar & disown

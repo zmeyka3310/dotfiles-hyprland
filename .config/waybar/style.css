@@ -1,0 +1,96 @@
+* {
+	border-radius: 20;
+	border: none;
+	font-family: Cantarell-VF Bold, Symbols Nerd Font;
+	font-size: 13px;
+	padding: 0px 0px;
+	margin: 0px 1px;
+}
+
+@define-color bg #262a32;
+@define-color fg #d8dee8;
+@define-color gr #545d70;
+@define-color red #f7768e;
+@define-color green #b9f27c;
+@define-color blue #4b4e6f;
+/*@define-color cyan #0db9d7;*/
+/*@define-color cyan #eb7e2c;*/
+@define-color cyan
+#0db9d7
+;
+window#waybar {
+	background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+#workspaces button {
+	font-weight: normal;
+	color: @gr;
+	background-color: @bg;
+	padding: 0px 0px;
+	margin: 0px 0px;
+}
+#workspaces button.hover {
+	font-weight: normal;
+	color: @fg;
+}
+#workspaces button.active {
+	font-weight: normal;
+	color: @fg;
+}
+#workspaces button.urgent {
+	font-weight: normal;
+	color: @red;
+}
+
+
+#cpu,
+#gamemode,
+#memory,
+#window,
+#custom-media,
+#custom-cmus,
+#custom-weather,
+#language,
+#pulseaudio,
+#clock,
+#battery,
+#network{
+	font-weight: normal;
+	padding: 0 12px;
+	margin: 0 3px;
+	color: @fg;
+	background-color: @bg;
+}
+
+#tray{
+	font-weight: normal;
+/*	spacing:10;*/
+	padding: 0 12px;
+	margin: 0 3px;
+	color: @fg;
+	background-color: @bg;
+/*	border: 2px solid @cyan;*/
+}
+
+#custom-menu {
+	font-weight: normal;
+	background-color: @bg;
+	color: @cyan;
+	padding: 0px 10px;
+	margin: 0px 10px;
+}
+
+#custom-sep {
+	font-weight: normal;
+	color: rgba(0, 0, 0, 0.0);
+}
+
+#window {
+	background-color: @bg;
+	color: @cyan;
+	font-family: Cantarell-VF Bold;
+	font-weight: bold;
+}
