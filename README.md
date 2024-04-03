@@ -1,4 +1,4 @@
-These are my hyprland dotfiles. very loosely based on hypr_arch from https://gitlab.com/prolinux410/owl_dots/-/tree/main/hyprland/hypr_arch?ref_type=heads
+These are my hyprland dotfiles. very loosely based on hypr_arch from https://gitlab.com/prolinux410/owl_dots/-/tree/main/hyprland/hypr_arch?ref_type=heads. wofi config is literally stolen from here: https://github.com/nabakdev/dotfiles/tree/main/.config/wofi
 
 You can switch between different styles using $MainMod + F1-F12
 
