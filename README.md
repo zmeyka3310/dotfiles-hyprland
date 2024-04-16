@@ -4,6 +4,8 @@ You can switch between different styles using $MainMod + F1-F12
 
 At system startup, no style will be selected, so please select one
 
+When first setting up, please make sure all of the files in ~/.bin/ are executable
+
 Includes a language switch, default at en/ru(phonetic)
 
 I probably have some hardcoded paths with my username (zmeyka), and if thats the case, please report them
