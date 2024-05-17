@@ -21,3 +21,6 @@ Style 3:
 
 Style 4:
 ![Screenshot from 2024-04-30 12-08-37](https://github.com/zmeyka3310/dotfiles-hyprland/assets/78418657/af74c9ae-66db-4e7a-a7aa-4709f17dfa7e)
+
+Style 5:
+![Screenshot from 2024-05-17 16-53-00](https://github.com/zmeyka3310/dotfiles-hyprland/assets/78418657/d9ef3d0b-ba1e-4c4b-8325-19a1361af60a)
