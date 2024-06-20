@@ -16,7 +16,7 @@
 /*@define-color cyan #0db9d7;*/
 /*@define-color cyan #eb7e2c;*/
 @define-color cyan
-#cccccc
+#d3ebf7
 ;
 window#waybar {
 	background-color: rgba(0, 0, 0, 0);
