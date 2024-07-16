@@ -94,3 +94,7 @@ window#waybar {
 	font-family: Cantarell-VF Bold;
 	font-weight: bold;
 }
+
+window#waybar.empty #window {
+	background: transparent
+}
