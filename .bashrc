@@ -18,5 +18,8 @@ alias fetch='fastfetch'
 alias ll='ls -l'
 
 alias cl='clear'
+
+alias clear='clear && ufetch'
+
 # commands to run on terminal start
 ufetch
