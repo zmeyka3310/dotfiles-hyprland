@@ -84,30 +84,6 @@
 	},
 
 
-	"custom/weather": {
-	"format": "{}",
-	"interval": 10,
-	"exec": "~/.config/hypr/themes/hypr_deep_blue/scripts/weather.sh",
-	"tooltip": false
-	},
-
-
-	"custom/cmus": {
-	"format": "{icon}    {}",
-	"format-icons": {
-		"default": [""]
-		},
-	"max-length": 45,
-	"interval": 1,
-	"exec": "cmus-remote -C \"format_print '%F'\"",
-	"exec-if": "pgrep cmus",
-	"on-click": "cmus-remote -u",
-	"on-scroll-up": "cmus-remote --next",
-	"on-scroll-down": "cmus-remote --prev",
-	"escape": true,
-	"tooltip": false
-	},
-
 	"custom/sep": {
 	"format": "_",
 	},
