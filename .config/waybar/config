@@ -52,16 +52,8 @@
 	"hyprland/window": {
 		"format": "{class}",
 		"separate-outputs": false,
-},
-
-
-	"custom/menu": {
-		"format": "{icon}",
-		"format-icons": "󰣇",
-		"on-click": "wofi --show drun -c ~/.config/hypr/themes/hypr_arch/wofi/config -s /home/owl/.config/hypr/themes/hypr_arch/wofi/style.css",
-		"escape": true,
-		"tooltip": false
 	},
+
 
 	"hyprland/language": {
 	    "format": "{}",
