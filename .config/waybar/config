@@ -52,6 +52,23 @@
 	"hyprland/window": {
 		"format": "{class}",
 		"separate-outputs": false,
+		"rewrite": {
+		"gnome-terminal-server": "Terminal",
+		"sublime_text": "Sublime Text",
+		"vesktop": "Vesktop",
+		"org.telegram.desktop": "Telegram",
+		"org.gnome.Nautilus": "Nautilus",
+		"wofi": "Wofi",
+		"pobfrontend": "Path of Building",
+		"steam": "Steam",
+		"octoxbps": "OctoXBPS",
+		"krita": "Krita",
+		"org.kde.dolphin": "Dolphin",
+		"org.pipewire.Helvum": "Helvum",
+		"com.obsproject.Studio": "OBS Studio",
+		"org.kde.kdenlive": "Kdenlive",
+		"eog": "Image viewer",
+		}
 	},
 
 
@@ -87,34 +104,4 @@
 	"custom/sep": {
 	"format": "_",
 	},
-
-
-	"gamemode": {
-	"format": "{glyph}",
-	"format-alt": "{glyph} {count}",
-	"glyph": "",
-	"hide-not-running": true,
-	"use-icon": true,
-	"icon-name": "input-gaming-symbolic",
-	"icon-spacing": -4,
-	"icon-size": 16,
-	"tooltip": true,
-	"tooltip-format": "Games running: {count}"
-	},
-
-
 }
-
-	"hyprland/workspaces": {
-		"format": "{icon}",
-		"on-click": "activate",
-		"format-icons": {
-			"1": "󰖟",
-			"2": "󰳫",
-			"3": "",
-			"4": "",
-			"5": "",
-			"6": "󰊗",
-			"7": "",
-			},
-		"tooltip": false
