@@ -10,6 +10,9 @@ PS1='[\u@\h \W]\$ '
 # Added by ProtonUp-Qt
 if [ -d "/home/zmeyka/stl/prefix" ]; then export PATH="$PATH:/home/zmeyka/stl/prefix"; fi
 
+#spoofdpi thingy
+export PATH=$PATH:~/.spoof-dpi/bin
+
 # Aliases
 alias reboot='sudo reboot'
 

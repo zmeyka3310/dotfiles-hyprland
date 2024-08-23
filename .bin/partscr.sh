@@ -3,6 +3,7 @@ hyprctl keyword animations:enabled 0
 OWS=$(hyprctl monitors | grep active | awk '{print $3}')
 hyprctl dispatch workspace 100
 pqiv -i /tmp/image2.png &
+sleep 0.1
 grim -g "$(slurp -w 0 -b 00000088)" /tmp/image.png
 wl-copy < /tmp/image.png 
 hyprctl dispatch workspace $OWS
