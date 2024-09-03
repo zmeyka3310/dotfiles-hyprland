@@ -18,7 +18,7 @@ alias reboot='sudo reboot'
 
 alias fetch='fastfetch'
 
-alias ll='ls -l'
+alias ll='ls -lA'
 
 alias cl='clear'
 
