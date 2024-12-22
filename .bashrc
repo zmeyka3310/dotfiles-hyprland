@@ -24,5 +24,10 @@ alias cl='clear'
 
 alias clear='clear && ufetch'
 
+ssh() {
+	command ssh "$@"
+	clear
+}
+
 # commands to run on terminal start
 ufetch
