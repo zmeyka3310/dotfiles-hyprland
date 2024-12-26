@@ -1,0 +1,3 @@
+alias digitaloceandroplet='ssh -i .ssh/digitaloceandroplet <username@server>'
+alias outlineclientwifi='sudo go run github.com/Jigsaw-Code/outline-sdk/x/examples/outline-cli@latest -transport "ss://<key@server:port>/?outline=1"'
+alias outlineclientmobile='sudo go run github.com/Jigsaw-Code/outline-sdk/x/examples/outline-cli@latest -transport "ss://<key@server>:80/?outline=1&prefix=POST%20"'

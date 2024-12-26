@@ -29,5 +29,7 @@ ssh() {
 	clear
 }
 
+source .private
+
 # commands to run on terminal start
 ufetch
