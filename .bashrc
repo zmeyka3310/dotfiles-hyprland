@@ -14,6 +14,8 @@ if [ -d "/home/zmeyka/stl/prefix" ]; then export PATH="$PATH:/home/zmeyka/stl/pr
 export PATH=$PATH:~/.spoof-dpi/bin
 
 # Aliases
+alias gnomeshutdown='dbus-send --system --print-reply --dest=org.freedesktop.login1 /org/freedesktop/login1 "org.freedesktop.login1.Manager.PowerOff" boolean:true' 
+
 alias reboot='sudo reboot'
 
 alias fetch='fastfetch'
