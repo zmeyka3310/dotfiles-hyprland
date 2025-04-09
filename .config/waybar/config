@@ -52,7 +52,7 @@
 		"format": "{class}",
 		"separate-outputs": false,
 		"rewrite": {
-		"gnome-terminal-server": "Terminal",
+		"org.gnome.Terminal": "Terminal",
 		"sublime_text": "Sublime Text",
 		"vesktop": "Vesktop",
 		"org.telegram.desktop": "Telegram",
