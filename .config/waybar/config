@@ -3,7 +3,7 @@
 	"position": "top",
 	"height": 27,
 	"margin-top": 5,
-
+	"start_hidden": true,
 	
     "modules-left": ["cpu", "memory", "clock"],
     "modules-center": ["hyprland/window"],
