@@ -7,3 +7,4 @@ cp -r ~/.bin/ ~/repos/dotfiles-hyprland
 cp ~/.bashrc ~/repos/dotfiles-hyprland/.bashrc
 echo "" > ~/repos/dotfiles-hyprland/.bin/screenshotassist.sh
 echo "" > ~/repos/dotfiles-hyprland/.config/hypr/preloader.conf
+echo "" > ~/repos/dotfiles-hyprland/.config/hypr/monitorpreloader.conf
