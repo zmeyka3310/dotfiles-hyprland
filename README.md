@@ -2,11 +2,15 @@ These are my hyprland dotfiles. very loosely based on hypr_arch from https://git
 
 You can switch between different styles using $MainMod + F1-F12
 
+You can switch between different monitor setups using $MainMod + SHIFT + F1-F12
+
 At system startup, no style will be selected, so please select one
 
 When first setting up, please make sure all of the files in ~/.bin/ are executable
 
 Includes a language switch, default at en/ru(phonetic)
+
+Includes waybar autohiding, to disable this remove barautohide.sh and  `"start_hidden": true` from waybar/config
 
 I probably have some hardcoded paths with my username (zmeyka), and if thats the case, please report them
 
