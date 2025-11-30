@@ -8,3 +8,4 @@ cp ~/.bashrc ~/repos/dotfiles-hyprland/.bashrc
 echo "" > ~/repos/dotfiles-hyprland/.bin/screenshotassist.sh
 echo "" > ~/repos/dotfiles-hyprland/.config/hypr/preloader.conf
 echo "" > ~/repos/dotfiles-hyprland/.config/hypr/monitorpreloader.conf
+echo "\$LAPTOP_KB_ENABLED = true" > ~/repos/dotfiles-hyprland/.config/hypr/keyboardtoggle.conf
