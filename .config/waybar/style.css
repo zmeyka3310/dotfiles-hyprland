@@ -57,6 +57,7 @@ window#waybar {
 #pulseaudio,
 #clock,
 #battery,
+#custom-pulsarbattery,
 #network{
 	font-weight: normal;
 	padding: 0 12px;

@@ -7,7 +7,7 @@
 	
     "modules-left": ["cpu", "memory", "clock"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["gamemode", "tray", "hyprland/language", "network", "pulseaudio", "battery"],
+    "modules-right": ["gamemode", "tray", "hyprland/language", "network", "pulseaudio", "custom/pulsarbattery", "battery"],
 
   	"network": {
   		"interface": "wlo1",
@@ -103,4 +103,11 @@
 	"custom/sep": {
 	"format": "_",
 	},
+
+	"custom/pulsarbattery": {
+    "exec": "./.bin/pulsar_battery_checker",
+    "interval": 15,
+    "format": "󰍽 {}%",
+    "tooltip": false
+}
 }
